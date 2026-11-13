@@ -9,11 +9,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: const Text('My Flutter App')),
-        body: const Center(child: Text('Coba - coba dulu')),
-      ),
+    return const MaterialApp(
+      home: Scaffold(body: Center(child: Text('Hello World!'))),
     );
   }
 }
